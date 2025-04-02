@@ -18,8 +18,7 @@ import Modal from "../../../components/Modal.js";
 
 let {height, width} = Dimensions.get('window');
 
-type Props = {};
-export default class ChatScreen extends Component<Props> {
+export default class ChatScreen extends Component {
   static navigationOptions = ({ navigation }) => {
     const { navigate } = navigation;
     return {
