@@ -8,8 +8,8 @@ import H1 from '../../components/text/H1';
 
 const { height, width } = Dimensions.get('window');
 
-type Props = {};
-export default class AppsScreen extends Component<Props> {
+// Removed type alias as it is not valid in JavaScript files
+export default class AppsScreen extends Component {
   static navigationOptions = ({ navigation }) => {
     const { navigate } = navigation;
     return {
